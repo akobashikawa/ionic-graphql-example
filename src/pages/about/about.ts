@@ -25,7 +25,7 @@ export class AboutPage implements OnInit {
       .watchQuery<any>({
         query: query,
         variables: {
-          name: "Rulo"
+          name: "Apollo"
         }
       })
       .valueChanges.subscribe(({ data }) => {
